@@ -1,0 +1,346 @@
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Helvetica,
+    "游ゴシック", sans-serif;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 10px;
+}
+
+.header-ttl {
+  width: 50px;
+  padding: 12px;
+}
+
+.header-ttl-link img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.header-nav-list {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-item-link {
+  font-weight: normal;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+/* eyecatch */
+.eyecatch {
+  position: relative;
+}
+
+.eyecatch-img-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.eyecatch-img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.catch-copy {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.catch-copy_main {
+  font-size: 3.4vw;
+  font-weight: bold;
+  padding-bottom: 1.5vw;
+}
+
+.catch-copy_sub {
+  font-weight: normal;
+  font-size: 1.15vw;
+}
+
+/* TOP */
+.top-txt {
+  background-color: #000;
+  padding: 5% 10%;
+  color: #fff;
+}
+.top-txt_ttl {
+  font-size: 2vw;
+  padding-bottom: 2vw;
+}
+
+.top-txt_desc {
+  font-size: 1.1vw;
+  line-height: 2vw;
+}
+
+.ttl {
+  color: #000;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* service */
+.top_service {
+  margin: 40px auto;
+  width: 80%;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.service-box {
+  width: 40%;
+}
+
+.service-box-img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.about {
+  background-color: #F5F5F5;
+  padding: 40px 0 45px;
+}
+
+.about-ttl {
+  text-align: center;
+}
+
+.about-content {
+  width: 910px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0;
+}
+
+.about-txt {
+  color: #8c8a8d;
+  line-height: 27px;
+}
+
+.about-txt p {
+  padding-bottom: 20px;
+}
+
+.about-img {
+  width: 40%;
+}
+
+
+
+.blog {
+  background-color: #F5F5F5;
+  padding: 50px 0 40px;
+}
+
+.blog-ttl::before {
+  content: 'Blog';
+}
+
+.blog-ttl {
+  width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.blog-content {
+  width: 900px;
+  margin: 50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.practice__card {
+  width: 30%;
+}
+
+.card__img {
+  position: relative;
+}
+
+.card__cat {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background-color: #B31667;
+  padding: 10px 20px;
+  border-radius: 15px 0 0 0;
+  width: 30px;
+}
+
+.card__img img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  vertical-align: bottom;
+}
+
+.card__ttl {
+  color: #747474;
+  padding: 0 0 30px;
+  line-height: 25px;
+}
+
+.card__content {
+  border-radius: 0 0 15px 15px;
+  padding: 20px 20px 23px;
+  background-color: #fff;
+}
+
+.card__content .tag {
+  display: flex;
+  justify-content: space-between;
+  color: #747474;
+  font-size: 13px;
+}
+
+.blog-btn {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.blog-btn a {
+  color: #BA2C74;
+  text-decoration: none;
+  border: 2px solid #BA2C74;
+  padding: 20px;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.company-ttl::before {
+  content: 'Company';
+}
+
+.company {
+  width: 720px;
+  margin: 80px auto;
+}
+
+.company-table {
+  margin-top: 40px;
+}
+
+.company-table tr {
+  color: #747474;
+  border: 2px solid #D0D0D0;
+  height: 55px;
+  line-height: 55px;
+}
+
+.company-table th {
+  text-align: left;
+  background-color: #F5F5F5;
+  border: 2px solid #D0D0D0;
+  padding-left: 15px;
+  width: 210px;
+}
+
+.company-table td {
+  padding-left: 15px;
+  width: 500px;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner-content {
+  width: 50%;
+}
+
+.banner-txt {
+  text-align: center;
+  position: absolute;
+  font-size: 28px;
+  color: #fff;
+  line-height: 21vw;
+  width: 50%;
+  font-weight: bold;
+}
+
+.banner-content img {
+  width: 100%;
+}
+
+.contact {
+  width: 500px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.contact-txt {
+  color: #777777;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-bd {
+  background-color: #B9286B;
+  height: 40px;
+  width: 2px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact-btn {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.contact-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 22px 30px;
+  border-radius: 50px;
+  display: block;
+  text-align: left;
+  font-weight: normal;
+  box-shadow: 0 8px 0 #840151;
+  background: linear-gradient(90deg, #FC1E8D, #B71568);
+}
+
+.contact-btn a::before {
+  content: '';
+  background: url(../img/mailicon.svg);
+  height: 28px;
+  color: #fff;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 60px;
+}
+
+footer {
+  background-color: #F5F5F5;
+}
+
+.footer-txt {
+  text-align: center;
+  display: block;
+  color: #A0A0A0;
+  font-size: 14px;
+  padding: 20px 0;
+}
